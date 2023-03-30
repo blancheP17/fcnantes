@@ -10,6 +10,9 @@ p {
     font-family: 'Amatic SC', cursive;
     font-size: 27px;
 }
+body {
+    margin: 0;
+}
 
 
 #logoun{
@@ -18,7 +21,7 @@ p {
 }
 #photoune{
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3c/Panorama_depuis_Butte_Sainte-Anne.jpg) ;
-    width: 99vw;
+    width: 100vw;
     }
 
 a{
@@ -38,15 +41,20 @@ a{
     color: yellow;
 }
 
-div{
-    width: 400px;
-    padding: 20px;
-    margin: 30px auto;
-    text-align: center;
+div {
 }
 
 .shadow {
+    width: 22vw;
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
     box-shadow: 10px 10px 50px;
+}
+.shadow img {
+    width: 100%;
+    max-height: 170px;
+    object-fit: contain;
 }
 
 #presentation{
@@ -93,4 +101,17 @@ video{
     text-decoration: none;
     border-radius: 7px;
     transition: all 250ms ease;
+}
+
+.zoom{
+    transition: all 100ms ease;
+}
+
+.zoom:hover {
+transform: scale(1.1);
+}
+
+#photofin{
+    background-image: url(https://www.francebleu.fr/s3/cruiser-production/2022/06/d50d42c3-dcb7-46c7-b319-5add7bf36d79/1200x680_nantes.jpg);
+    width: 100vw;
 }
